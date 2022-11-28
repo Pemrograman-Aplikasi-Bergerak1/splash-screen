@@ -1,14 +1,15 @@
-package com.azzar.splashscreen;
+package com.azzar.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class MasukActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_masuk);
+        getSupportActionBar().hide();
     }
 }

@@ -1,4 +1,4 @@
-package com.azzar.splashscreen;
+package com.azzar.myapplication;
 
 import org.junit.Test;
 
